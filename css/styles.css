@@ -221,7 +221,102 @@ button:focus {
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
+  
 }
+/* Desctop 2x monitor*/
+
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/bg@2x.jpg);
+  }
+  
+}
+/* Desctop 3x monitor*/
+
+@media (min-device-pixel-ratio: 3), (min-resolution: 288dpi), (min-resolution: 3dppx) {
+  .hero {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/bg@3x.jpg);
+  }
+  
+}
+
+/* mobile */
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px), 
+screen and (min-resolution: 192dpi) and (max-width: 767px), 
+screen and (min-resolution: 2dppx) and (max-width: 767px){
+  .hero {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/mobile/bg@2x.jpg);
+  }
+   
+}
+
+/* tablet */
+
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/tablet/bg.jpg);
+  }
+   
+}
+
+/* tablet 2x*/
+
+/* mobile */
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), 
+screen and (min-resolution: 192dpi) and (min-width: 768px), 
+screen and (min-resolution: 2dppx) and (min-width: 768px){
+  .hero {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/tablet/bg@2x.jpg);
+  }
+   
+}
+/* desctop */
+@media screen and (min-width: 1200px) {
+  .hero {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/bg.jpg);
+  }
+   
+}
+ /* desctop 2x */
+ @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), 
+screen and (min-resolution: 192dpi) and (min-width: 1200px), 
+screen and (min-resolution: 2dppx) and (min-width: 1200px){
+  .hero {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/bg@2x.jpg);
+  }
+   
+}
+
+
+
 
 .page-main-title {
   font-weight: 700;
