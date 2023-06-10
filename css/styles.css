@@ -54,18 +54,26 @@ button:focus {
 .list {
   list-style: none;
 }
+.link {
+  text-decoration: none;
+  font-style: normal;
+}
 
+/* MOBILE_HEADER */
 .container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px.
+}
+
+/* .container {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding-right: 15px;
   padding-left: 15px;
-}
-.link {
-  text-decoration: none;
-  font-style: normal;
-}
+} */
+
 
 /* --Page Header-- */
 
