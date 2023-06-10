@@ -58,14 +58,35 @@ button:focus {
   text-decoration: none;
   font-style: normal;
 }
-
+/* MOBILE */
 /* MOBILE_HEADER */
 .container {
-  width: 100%;
-  padding-left: 15px;
-  padding-right: 15px.
+  padding-left: 16px;
+  padding-right: 16px;
+}
+@media screen and (min-width: 480) {
+  .container {
+    width: 428px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
+/* Tablet */
+@media screen and (min-width: 768) {
+  .container {
+    width: 768px;
+   
+  }
+}
+
+/* DESCTOP */
+@media screen and (min-width: 1200) {
+  .container {
+    width: 1158px;
+    
+  }
+}
 /* .container {
   width: 1158px;
   margin-left: auto;
