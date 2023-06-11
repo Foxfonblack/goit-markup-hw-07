@@ -19,7 +19,7 @@
   </head>
   <body>
     <header class="page-header">
-      <div class="header-container container">
+      <div class="page-header-container container">
         <nav class="page-navigation">
           <a class="logo-link-text header-logo link" href="./index.html"
             >Web<span class="logo-link-dark">Studio</span></a
@@ -43,7 +43,7 @@
         </button>
         <address class="adress">
           <ul class="adress-list list">
-            <li>
+            <li class="adress-list-item">
               <a class="adress-link adress-link-email link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
@@ -63,12 +63,10 @@
           </button>
           <ul class="mobile-menu-list list">
             <li class="mobile-menu-item">
-              <a class="mobile-menu-link link" href="./index.html">Studio</a>
+              <a class="mobile-menu-link current-menu-link link" href="./index.html">Studio</a>
             </li>
             <li class="mobile-menu-item">
-              <a class="mobile-menu-link current-menu-link link" href="./portfolio.html"
-                >Portfolio</a
-              >
+              <a class="mobile-menu-link link" href="./portfolio.html">Portfolio</a>
             </li>
             <li class="mobile-menu-item">
               <a class="mobile-menu-link link" href="">Contacts</a>
@@ -98,8 +96,7 @@
                     width="24"
                     height="24"
                   >
-                    <use href="./images/icons.svg#icon-instagram-icon"></use></svg
-                ></a>
+                    <use href="./images/icons.svg#icon-instagram-icon"></use></svg></a>
               </li>
               <li class="social-media-list-mobile-item">
                 <a href="" class="social-media-link-mobile link"
@@ -109,8 +106,7 @@
                     width="24"
                     height="24"
                   >
-                    <use href="./images/icons.svg#icon-twitter-icon"></use></svg
-                ></a>
+                    <use href="./images/icons.svg#icon-twitter-icon"></use></svg></a>
               </li>
               <li class="social-media-list-mobile-item">
                 <a href="" class="social-media-link-mobile link"
@@ -120,8 +116,7 @@
                     width="24"
                     height="24"
                   >
-                    <use href="./images/icons.svg#icon-facebook-icon"></use></svg
-                ></a>
+                    <use href="./images/icons.svg#icon-facebook-icon"></use></svg></a>
               </li>
               <li class="social-media-list-mobile-item">
                 <a href="" class="social-media-link-mobile link"
@@ -131,8 +126,7 @@
                     width="24"
                     height="24"
                   >
-                    <use href="./images/icons.svg#icon-linkedin-icon"></use></svg
-                ></a>
+                    <use href="./images/icons.svg#icon-linkedin-icon"></use></svg></a>
               </li>
             </ul>
           </div>
@@ -158,16 +152,16 @@
                     <!-- DESKTOP -->
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-desktop-1.webp    1x,
-                        ./images/portfolio-images/portfolio-image-desktop-1@2x.webp 2x
+                        ./images/portfolio/desctop/banking.webp 1x,
+                        ./images/portfolio/desctop/banking@2x.webp 2x
                       "
                       media="(min-width: 1158px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-desktop-1.jpg    1x,
-                        ./images/portfolio-images/portfolio-image-desktop-1@2x.jpg 2x
+                        ./images/portfolio/desctop/banking.jpg 1x,
+                        ./images/portfolio/desctop/banking@2x.jpg 2x
                       "
                       media="(min-width: 1158px)"
                     />
@@ -175,16 +169,16 @@
                     <!-- TABLET -->
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-tablet-1.webp    1x,
-                        ./images/portfolio-images/portfolio-image-tablet-1@2x.webp 2x
+                        ./images/tablet/portfolio/tablet-banking.webp 1x,
+                        ./images/tablet/portfolio/tablet-banking@2x.webp 2x
                       "
                       media="(min-width: 768px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-tablet-1.jpg    1x,
-                        ./images/portfolio-images/portfolio-image-tablet-1@2x.jpg 2x
+                        ./images/tablet/portfolio/tablet-banking.jpg 1x,
+                        ./images/tablet/portfolio/tablet-banking@2x.jpg 2x
                       "
                       media="(min-width: 768px)"
                     />
@@ -192,21 +186,21 @@
                     <!-- MOBILE -->
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-mobile-1.webp    1x,
-                        ./images/portfolio-images/portfolio-image-mobile-1@2x.webp 2x
+                        ./images/mobile/portfolio/mobile-banking.webp 1x,
+                        ./images/mobile/portfolio/mobile-banking@2x.webp 2x
                       "
                       media="(min-width: 428px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-mobile-1.jpg    1x,
-                        ./images/portfolio-images/portfolio-image-mobile-1@2x.jpg 2x
+                        ./images/mobile/portfolio/mobile-banking.jpg 1x,
+                        ./images/mobile/portfolio/mobile-banking@2x.jpg 2x
                       "
                       media="(min-width: 428px)"
                     />
                     <img
-                      src="./images/portfolio-images/portfolio-image-mobile-1.jpg"
+                      src="./images/mobile/portfolio/mobile-banking.jpg"
                       alt="Banking App Interface Concept"
                     />
                   </picture>
@@ -228,16 +222,16 @@
                     <!-- DESKTOP -->
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-desktop-2.webp    1x,
-                        ./images/portfolio-images/portfolio-image-desktop-2@2x.webp 2x
+                        ./images/cashless.webp 1x,
+                        ./images/cashless@2x.webp 2x
                       "
                       media="(min-width: 1158px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-desktop-2.jpg    1x,
-                        ./images/portfolio-images/portfolio-image-desktop-2@2x.jpg 2x
+                        ./images/cashless.jpg 1x,
+                        ./images/cashless@2x.jpg 2x
                       "
                       media="(min-width: 1158px)"
                     />
@@ -245,16 +239,16 @@
                     <!-- TABLET -->
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-tablet-2.webp    1x,
-                        ./images/portfolio-images/portfolio-image-tablet-2@2x.webp 2x
+                        ./images/tablet/portfolio/tablet-cashless.webp 1x,
+                        ./images/tablet/portfolio/tablet-cashless2@2x.webp 2x
                       "
                       media="(min-width: 768px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-tablet-2.jpg    1x,
-                        ./images/portfolio-images/portfolio-image-tablet-2@2x.jpg 2x
+                        ./images/tablet/portfolio/tablet-cashless.jpg 1x,
+                        ./images/tablet/portfolio/tablet-cashless@2x.jpg 2x
                       "
                       media="(min-width: 768px)"
                     />
@@ -262,21 +256,21 @@
                     <!-- MOBILE -->
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-mobile-2.webp    1x,
-                        ./images/portfolio-images/portfolio-image-mobile-2@2x.webp 2x
+                        ./images/mobile/portfolio/mobile-cashless.webp    1x,
+                        ./images/mobile/portfolio/mobile-cashless@2x.webp 2x
                       "
                       media="(min-width: 428px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-mobile-2.jpg    1x,
-                        ./images/portfolio-images/portfolio-image-mobile-2@2x.jpg 2x
+                        ./images/mobile/portfolio/mobile-cashless.jpg    1x,
+                        ./images/mobile/portfolio/mobile-cashless@2x.jpg 2x
                       "
                       media="(min-width: 428px)"
                     />
                     <img
-                      src="./images/portfolio-images/portfolio-image-mobile-2.jpg"
+                      src="./images/mobile/portfolio/mobile-cashless.jpg"
                       alt="Cashless Payment"
                     />
                   </picture>
@@ -298,16 +292,16 @@
                     <!-- DESKTOP -->
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-desktop-3.webp    1x,
-                        ./images/portfolio-images/portfolio-image-desktop-3@2x.webp 2x
+                        ./images/meditation.webp 1x,
+                        ./images/meditation@2x.webp 2x
                       "
                       media="(min-width: 1158px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-desktop-3.jpg    1x,
-                        ./images/portfolio-images/portfolio-image-desktop-3@2x.jpg 2x
+                        ./images/meditation.jpg 1x,
+                        ./images/meditation@2x.jpg 2x
                       "
                       media="(min-width: 1158px)"
                     />
@@ -315,16 +309,16 @@
                     <!-- TABLET -->
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-tablet-3.webp    1x,
-                        ./images/portfolio-images/portfolio-image-tablet-3@2x.webp 2x
+                        ./images/tablet/portfolio/tablet-meditation.webp 1x,
+                        ./images/tablet/portfolio/tablet-meditation@2x.webp 2x
                       "
                       media="(min-width: 768px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-tablet-3.jpg    1x,
-                        ./images/portfolio-images/portfolio-image-tablet-3@2x.jpg 2x
+                        ./images/tablet/portfolio/tablet-meditation.jpg 1x,
+                        ./images/tablet/portfolio/tablet-meditation@2x.jpg 2x
                       "
                       media="(min-width: 768px)"
                     />
@@ -332,21 +326,21 @@
                     <!-- MOBILE -->
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-mobile-3.webp    1x,
-                        ./images/portfolio-images/portfolio-image-mobile-3@2x.webp 2x
+                        ./images/mobile/portfolio/mobile-meditation.webp    1x,
+                        ./images/mobile/portfolio/mobile-meditation@2x.webp 2x
                       "
                       media="(min-width: 428px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-mobile-3.jpg    1x,
-                        ./images/portfolio-images/portfolio-image-mobile-3@2x.jpg 2x
+                        ./images/mobile/portfolio/mobile-meditation.jpg    1x,
+                        ./images/mobile/portfolio/mobile-meditation@2x.jpg 2x
                       "
                       media="(min-width: 428px)"
                     />
                     <img
-                      src="./images/portfolio-images/portfolio-image-mobile-3.jpg"
+                      src="./images/mobile/portfolio/mobile-meditation.jpg"
                       alt="Meditation App"
                     />
                   </picture>
@@ -368,16 +362,16 @@
                     <!-- DESKTOP -->
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-desktop-4.webp    1x,
-                        ./images/portfolio-images/portfolio-image-desktop-4@2x.webp 2x
+                        ./images/taxi.webp 1x,
+                        ./images/taxi@2x.webp 2x
                       "
                       media="(min-width: 1158px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-desktop-4.jpg    1x,
-                        ./images/portfolio-images/portfolio-image-desktop-4@2x.jpg 2x
+                        ./images/taxi.jpg 1x,
+                        ./images/taxi@2x.jpg 2x
                       "
                       media="(min-width: 1158px)"
                     />
@@ -385,16 +379,16 @@
                     <!-- TABLET -->
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-tablet-4.webp    1x,
-                        ./images/portfolio-images/portfolio-image-tablet-4@2x.webp 2x
+                        ./images/tablet/portfolio/tablet-taxi.webp    1x,
+                        ./images/tablet/portfolio/tablet-taxi@2x.webp 2x
                       "
                       media="(min-width: 768px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-tablet-4.jpg    1x,
-                        ./images/portfolio-images/portfolio-image-tablet-4@2x.jpg 2x
+                        ./images/tablet/portfolio/tablet-taxi.jpg    1x,
+                        ./images/tablet/portfolio/tablet-taxi@2x.jpg 2x
                       "
                       media="(min-width: 768px)"
                     />
@@ -402,21 +396,21 @@
                     <!-- MOBILE -->
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-mobile-4.webp    1x,
-                        ./images/portfolio-images/portfolio-image-mobile-4@2x.webp 2x
+                        ./images/mobile/portfolio/mobile-taxi.webp    1x,
+                        ./images/mobile/portfolio/mobile-taxi@2x.webp 2x
                       "
                       media="(min-width: 428px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-mobile-4.jpg    1x,
-                        ./images/portfolio-images/portfolio-image-mobile-4@2x.jpg 2x
+                        ./images/mobile/portfolio/mobile-taxi.jpg    1x,
+                        ./images/mobile/portfolio/mobile-taxi@2x.jpg 2x
                       "
                       media="(min-width: 428px)"
                     />
                     <img
-                      src="./images/portfolio-images/portfolio-image-mobile-4.jpg"
+                      src="./images/mobile/portfolio/tmobile-axi.jpg"
                       alt="Taxi Service"
                     />
                   </picture>
@@ -438,16 +432,16 @@
                     <!-- DESKTOP -->
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-desktop-5.webp    1x,
-                        ./images/portfolio-images/portfolio-image-desktop-5@2x.webp 2x
+                        ./images/screen-illustrations.webp 1x,
+                        ./images/screen-illustrations@2x.webp 2x
                       "
                       media="(min-width: 1158px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-desktop-5.jpg    1x,
-                        ./images/portfolio-images/portfolio-image-desktop-5@2x.jpg 2x
+                        ./images/screen-illustrations.jpg 1x,
+                        ./images/screen-illustrations@2x.jpg 2x
                       "
                       media="(min-width: 1158px)"
                     />
@@ -455,16 +449,16 @@
                     <!-- TABLET -->
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-tablet-5.webp    1x,
-                        ./images/portfolio-images/portfolio-image-tablet-5@2x.webp 2x
+                        ./images/tablet/portfolio/tablet-screen-illustrations.webp 1x,
+                        ./images/tablet/portfolio/tablet-screen-illustrations@2x.webp 2x
                       "
                       media="(min-width: 768px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-tablet-5.jpg    1x,
-                        ./images/portfolio-images/portfolio-image-tablet-5@2x.jpg 2x
+                        ./images/tablet/portfolio/tablet-screen-illustrations.jpg 1x,
+                        ./images/tablet/portfolio/tablet-screen-illustrations@2x.jpg 2x
                       "
                       media="(min-width: 768px)"
                     />
@@ -472,21 +466,21 @@
                     <!-- MOBILE -->
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-mobile-5.webp    1x,
-                        ./images/portfolio-images/portfolio-image-mobile-5@2x.webp 2x
+                        ./images/mobile/portfolio/mobile-screen-illustrations.webp 1x,
+                        ./images/mobile/portfolio/mobile-screen-illustrations@2x.webp 2x
                       "
                       media="(min-width: 428px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-mobile-5.jpg    1x,
-                        ./images/portfolio-images/portfolio-image-mobile-5@2x.jpg 2x
+                        ./images/mobile/portfolio/mobile-screen-illustrations.jpg 1x,
+                        ./images/mobile/portfolio/mobile-screen-illustrations@2x.jpg 2x
                       "
                       media="(min-width: 428px)"
                     />
                     <img
-                      src="./images/portfolio-images/portfolio-image-mobile-5.jpg"
+                      src="./images/mobile/portfolio/mobile-screen-illustrations.jpg"
                       alt="Screen Illustrations"
                     />
                   </picture>
@@ -508,16 +502,16 @@
                     <!-- DESKTOP -->
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-desktop-6.webp    1x,
-                        ./images/portfolio-images/portfolio-image-desktop-6@2x.webp 2x
+                        ./images/online-courses.webp 1x,
+                        ./images/online-courses@2x.webp 2x
                       "
                       media="(min-width: 1158px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-desktop-6.jpg    1x,
-                        ./images/portfolio-images/portfolio-image-desktop-6@2x.jpg 2x
+                        ./images/online-courses.jpg 1x,
+                        ./images/online-courses@2x.jpg 2x
                       "
                       media="(min-width: 1158px)"
                     />
@@ -525,16 +519,16 @@
                     <!-- TABLET -->
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-tablet-6.webp    1x,
-                        ./images/portfolio-images/portfolio-image-tablet-6@2x.webp 2x
+                        ./images/tablet/portfolio/tablet-online-courses.webp 1x,
+                        ./images/tablet/portfolio/tablet-online-courses@2x.webp 2x
                       "
                       media="(min-width: 768px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-tablet-6.jpg    1x,
-                        ./images/portfolio-images/portfolio-image-tablet-6@2x.jpg 2x
+                        ./images/tablet/portfolio/tablet-online-courses.jpg 1x,
+                        ./images/tablet/portfolio/tablet-online-courses@2x.jpg 2x
                       "
                       media="(min-width: 768px)"
                     />
@@ -542,21 +536,21 @@
                     <!-- MOBILE -->
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-mobile-6.webp    1x,
-                        ./images/portfolio-images/portfolio-image-mobile-6@2x.webp 2x
+                        ./images/mobile/portfolio/mobile-online-courses.webp 1x,
+                        ./images/mobile/portfolio/mobile-online-courses@2x.webp 2x
                       "
                       media="(min-width: 428px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-mobile-6.jpg    1x,
-                        ./images/portfolio-images/portfolio-image-mobile-6@2x.jpg 2x
+                        ./images/mobile/portfolio/mobile-online-courses.jpg 1x,
+                        ./images/mobile/portfolio/mobile-online-courses@2x.jpg 2x
                       "
                       media="(min-width: 428px)"
                     />
                     <img
-                      src="./images/portfolio-images/portfolio-image-mobile-6.jpg"
+                      src="./images/mobile/portfolio/mobile-online-courses.jpg"
                       alt="Online Courses"
                     />
                   </picture>
@@ -578,16 +572,16 @@
                     <!-- DESKTOP -->
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-desktop-7.webp    1x,
-                        ./images/portfolio-images/portfolio-image-desktop-7@2x.webp 2x
+                        ./images/instagram-stories-concept.webp 1x,
+                        ./images/instagram-stories-concept@2x.webp 2x
                       "
                       media="(min-width: 1158px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-desktop-7.jpg    1x,
-                        ./images/portfolio-images/portfolio-image-desktop-7@2x.jpg 2x
+                        ./images/instagram-stories-concept.jpg 1x,
+                        ./images/instagram-stories-concept@2x.jpg 2x
                       "
                       media="(min-width: 1158px)"
                     />
@@ -595,16 +589,16 @@
                     <!-- TABLET -->
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-tablet-7.webp    1x,
-                        ./images/portfolio-images/portfolio-image-tablet-7@2x.webp 2x
+                        ./images/tablet/portfolio/tablet-instagram-stories-concept.webp 1x,
+                        ./images/tablet/portfolio/tablet-instagram-stories-concept@2x.webp 2x
                       "
                       media="(min-width: 768px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-tablet-7.jpg    1x,
-                        ./images/portfolio-images/portfolio-image-tablet-7@2x.jpg 2x
+                        ./images/tablet/portfolio/tablet-instagram-stories-concept.jpg 1x,
+                        ./images/tablet/portfolio/tablet-instagram-stories-concept@2x.jpg 2x
                       "
                       media="(min-width: 768px)"
                     />
@@ -612,21 +606,21 @@
                     <!-- MOBILE -->
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-mobile-7.webp    1x,
-                        ./images/portfolio-images/portfolio-image-mobile-7@2x.webp 2x
+                        ./images/mobile/portfolio/mobile-instagram-stories-concept.webp    1x,
+                        ./images/mobile/portfolio/mobile-instagram-stories-concept@2x.webp 2x
                       "
                       media="(min-width: 428px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-mobile-7.jpg    1x,
-                        ./images/portfolio-images/portfolio-image-mobile-7@2x.jpg 2x
+                        ./images/mobile/portfolio/mobile-instagram-stories-concept.jpg    1x,
+                        ./images/mobile/portfolio/mobile-instagram-stories-concept@2x.jpg 2x
                       "
                       media="(min-width: 428px)"
                     />
                     <img
-                      src="./images/portfolio-images/portfolio-image-mobile-7.jpg"
+                      src="./mobile/portfolio/mobile-instagram-stories-concept.jpg"
                       alt="Instagram Stories Concept"
                     />
                   </picture>
@@ -648,16 +642,16 @@
                     <!-- DESKTOP -->
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-desktop-8.webp    1x,
-                        ./images/portfolio-images/portfolio-image-desktop-8@2x.webp 2x
+                        ./images/organic-food.webp 1x,
+                        ./images/organic-food@2x.webp 2x
                       "
                       media="(min-width: 1158px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-desktop-8.jpg    1x,
-                        ./images/portfolio-images/portfolio-image-desktop-8@2x.jpg 2x
+                        ./images/organic-food.jpg 1x,
+                        ./images/organic-food@2x.jpg 2x
                       "
                       media="(min-width: 1158px)"
                     />
@@ -665,16 +659,16 @@
                     <!-- TABLET -->
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-tablet-8.webp    1x,
-                        ./images/portfolio-images/portfolio-image-tablet-8@2x.webp 2x
+                        ./images/tablet/portfolio/tablet-organic-food.webp 1x,
+                        ./images/tablet/portfolio/tablet-organic-food@2x.webp 2x
                       "
                       media="(min-width: 768px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-tablet-8.jpg    1x,
-                        ./images/portfolio-images/portfolio-image-tablet-8@2x.jpg 2x
+                        ./images/tablet/portfolio/tablet-organic-food.jpg 1x,
+                        ./images/tablet/portfolio/tablet-organic-food.jpg 2x
                       "
                       media="(min-width: 768px)"
                     />
@@ -682,21 +676,21 @@
                     <!-- MOBILE -->
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-mobile-8.webp    1x,
-                        ./images/portfolio-images/portfolio-image-mobile-8@2x.webp 2x
+                        ./images/mobile/portfolio/mobile-organic-food.webp 1x,
+                        ./images/mobile/portfolio/mobile-organic-food@2x.webp 2x
                       "
                       media="(min-width: 428px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-mobile-8.jpg    1x,
-                        ./images/portfolio-images/portfolio-image-mobile-8@2x.jpg 2x
+                        ./images/mobile/portfolio/mobile-organic-food.jpg 1x,
+                        ./images/mobile/portfolio/mobile-organic-food@2x.jpg 2x
                       "
                       media="(min-width: 428px)"
                     />
                     <img
-                      src="./images/portfolio-images/portfolio-image-mobile-8.jpg"
+                      src="./images/mobile/portfolio/mobile-organic-food.jpg"
                       alt="Organic Food"
                     />
                   </picture>
@@ -718,16 +712,16 @@
                     <!-- DESKTOP -->
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-desktop-9.webp    1x,
-                        ./images/portfolio-images/portfolio-image-desktop-9@2x.webp 2x
+                        ./images/fresh-coffee.webp 1x,
+                        ./images/fresh-coffee@2x.webp 2x
                       "
                       media="(min-width: 1158px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-desktop-9.jpg    1x,
-                        ./images/portfolio-images/portfolio-image-desktop-9@2x.jpg 2x
+                        ./images/fresh-coffee.jpg 1x,
+                        ./images/fresh-coffee@2x.jpg 2x
                       "
                       media="(min-width: 1158px)"
                     />
@@ -735,16 +729,16 @@
                     <!-- TABLET -->
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-tablet-9.webp    1x,
-                        ./images/portfolio-images/portfolio-image-tablet-9@2x.webp 2x
+                        ./images/tablet/portfolio/tablet-fresh-coffee.webp 1x,
+                        ./images/tablet/portfolio/tablet-fresh-coffee@2x.webp 2x
                       "
                       media="(min-width: 768px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-tablet-9.jpg    1x,
-                        ./images/portfolio-images/portfolio-image-tablet-9@2x.jpg 2x
+                        ./images/tablet/portfolio/tablet-fresh-coffee.jpg 1x,
+                        ./images/tablet/portfolio/tablet-fresh-coffee@2x.jpg 2x
                       "
                       media="(min-width: 768px)"
                     />
@@ -752,21 +746,21 @@
                     <!-- MOBILE -->
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-mobile-9.webp    1x,
-                        ./images/portfolio-images/portfolio-image-mobile-9@2x.webp 2x
+                        ./images/mobile/portfolio/mobile-fresh-coffee.webp 1x,
+                        ./images/mobile/portfolio/mobile-fresh-coffee@2x.webp 2x
                       "
                       media="(min-width: 428px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio-images/portfolio-image-mobile-9.jpg    1x,
-                        ./images/portfolio-images/portfolio-image-mobile-9@2x.jpg 2x
+                        ./images/mobile/portfolio/mobile-fresh-coffee.jpg 1x,
+                        ./images/mobile/portfolio/mobile-fresh-coffee@2x.jpg 2x
                       "
                       media="(min-width: 428px)"
                     />
                     <img
-                      src="./images/portfolio-images/portfolio-image-mobile-9.jpg"
+                      src="./images/mobile/portfolio/mobile-fresh-coffee.jpg"
                       alt="Fresh Coffee"
                     />
                   </picture>
@@ -807,8 +801,7 @@
                   width="24"
                   height="24"
                 >
-                  <use href="./images/icons.svg#icon-instagram-icon"></use></svg
-              ></a>
+                  <use href="./images/icons.svg#icon-instagram-icon"></use></svg></a>
             </li>
             <li class="social-media-list-footer-item">
               <a href="" class="social-media-link-footer link"
@@ -818,8 +811,7 @@
                   width="24"
                   height="24"
                 >
-                  <use href="./images/icons.svg#icon-twitter-icon"></use></svg
-              ></a>
+                  <use href="./images/icons.svg#icon-twitter-icon"></use></svg></a>
             </li>
             <li class="social-media-list-footer-item">
               <a href="" class="social-media-link-footer link"
@@ -829,8 +821,7 @@
                   width="24"
                   height="24"
                 >
-                  <use href="./images/icons.svg#icon-facebook-icon"></use></svg
-              ></a>
+                  <use href="./images/icons.svg#icon-facebook-icon"></use></svg></a>
             </li>
             <li class="social-media-list-footer-item">
               <a href="" class="social-media-link-footer link"
@@ -840,13 +831,12 @@
                   width="24"
                   height="24"
                 >
-                  <use href="./images/icons.svg#icon-linkedin-icon"></use></svg
-              ></a>
+                  <use href="./images/icons.svg#icon-linkedin-icon"></use></svg></a>
             </li>
           </ul>
         </div>
-        <div class="footer-right">
-          <p class="subscribe-wrapper-text">Subscribe</p>
+        <div class="footer-form-container">
+          <p class="footer-form-text">Subscribe</p>
           <form class="email-form">
             <label class="subscribe-wrapper">
               <input type="email" name="user-email" class="email-form-input" placeholder="E-mail" />
